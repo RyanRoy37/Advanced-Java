@@ -662,3 +662,10 @@ Unconditional classes:
 2026-01-23T18:38:36.330+05:30  INFO 5004 --- [PolicyHolder-CRUD] [main] c.e.P.CRUD.PolicyHolderCrudApplication   : Started PolicyHolderCrudApplication in 1.399 seconds (process running for 6.941)
 2026-01-23T18:38:36.331+05:30 DEBUG 5004 --- [PolicyHolder-CRUD] [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
 2026-01-23T18:38:36.332+05:30 DEBUG 5004 --- [PolicyHolder-CRUD] [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2026-01-23T19:09:53.901+05:30 DEBUG 5004 --- [PolicyHolder-CRUD] [SpringApplicationShutdownHook] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2026-01-23T19:09:53.902+05:30 DEBUG 5004 --- [PolicyHolder-CRUD] [SpringApplicationShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@256f8274, started on Fri Jan 23 18:38:35 IST 2026
+2026-01-23T19:09:53.906+05:30  INFO 5004 --- [PolicyHolder-CRUD] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-23T19:09:53.914+05:30  INFO 5004 --- [PolicyHolder-CRUD] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-23T19:09:53.917+05:30  INFO 5004 --- [PolicyHolder-CRUD] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-23T19:09:53.919+05:30  INFO 5004 --- [PolicyHolder-CRUD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-23T19:09:53.920+05:30  INFO 5004 --- [PolicyHolder-CRUD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
